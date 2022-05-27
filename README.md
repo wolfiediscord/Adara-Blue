@@ -1,11 +1,11 @@
-# [Adara Cinnamon theme][repo]
+# [Adara Blue Cinnamon theme][repo]
 > Just a neutral theme
 
 [![](Adara/screenshot.png)![](Adara-Dark/screenshot.png)][repo]
 
 ## Installation
 ### Cinnamon Settings (recommended)
-Go to `Settings > Themes` and search for "Adara".
+Go to `Settings > Themes` and search for "Adara Blue".
 
 #### From source
 Clone [this repository][repo] and run `make install` or `make install-dark`.
@@ -29,6 +29,17 @@ Contributions are accepted via GitHub pull requests [here][repo]. Please, if you
 * `inotifywait (inotify-tools)`: watch for changes (optional)
 * `scour`: remove svg metadata (optional)
 
+## Changes From Adara
+- Made panel more transparent
+- Calendar menu has been fixed
+- - Event Box is properly themed
+- - The non-work days background have been removed
+- - Current day & date has been styled properly
+- - Selection of other days have a background
+- Made dark theme lighter
+- Blue accent color for light & dark theme
+- Volume OSD slider and padding are bigger
+
 ## License
 ```
 Adara theme for Cinnamon
@@ -48,6 +59,6 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ```
 
-[repo]: https://github.com/germanfr/adara-theme
+[repo]: https://github.com/wolfiediscord/Adara-Blue
 [spices]: https://cinnamon-spices.linuxmint.com/themes/view/Adara
-[archive]: https://github.com/germanfr/adara-theme/releases
+[archive]: https://github.com/wolfiediscord/Adara-Blue/releases
