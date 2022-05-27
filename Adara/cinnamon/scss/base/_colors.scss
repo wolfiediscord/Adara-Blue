@@ -1,5 +1,5 @@
 // Accent colors
-$accent-primary: light-dark(#444, #999);
+$accent-primary: light-dark(#458ce8, #3466a8);
 $accent-success: #33cc33;
 $accent-info:    #3399cc;
 $accent-hlight:  #ffcc00;
@@ -21,12 +21,12 @@ $text-hlight:  saturate(darken($accent-hlight,   4%), 20%);
 $text-danger:  saturate(darken($accent-danger,   6%), 99%);
 
 // Background colors
-$background-primary:   light-dark(#fafafa, #111111);
-$background-secondary: light-dark(#f0f0f0, #090909);
+$background-primary:   light-dark(#fafafa, #1A1A1A);
+$background-secondary: light-dark(#f0f0f0, #151515);
 $background-accent:    light-dark(#ffffff, #1f1f1f);
 
 $background-hover:     light-dark(rgba(#000, .15), rgba(#fff, .1));
-$background-panel:     rgba(#000, .85);
+$background-panel:     rgba(#000, .70);
 
 // Border colors
 $border-primary:   light-dark(rgba(#000, .2),  rgba(#000, .45));

@@ -101,7 +101,7 @@ StScrollBar StButton#vhandle:hover, StScrollBar StButton#vhandle:focus, StScroll
 StScrollBar StButton#hhandle:hover,
 StScrollBar StButton#hhandle:focus,
 StScrollBar StButton#hhandle:active {
-  background: #090909;
+  background: #151515;
   border: 1px rgba(0, 0, 0, 0.35);
 }
 
@@ -138,7 +138,7 @@ StEntry:focus, StEntry:active, StEntry:pressed,
   caret-color: rgba(255, 255, 255, 0.95);
   caret-size: 1px;
   selected-color: rgba(255, 255, 255, 0.85);
-  selection-background-color: #999;
+  selection-background-color: #3466a8;
 }
 
 StEntry StIcon,
@@ -170,12 +170,12 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   height: 16px;
   background-image: url("img/controls/switch.svg");
   background-position: 0px 0px;
-  background-color: rgba(153, 153, 153, 0.35);
+  background-color: rgba(91, 107, 130, 0.35);
   border-radius: 8px;
 }
 
 .toggle-switch:checked, .toggle-switch-us:checked, .toggle-switch-intl:checked {
-  background-color: #999;
+  background-color: #3466a8;
   background-position: 14px 0px;
 }
 
@@ -316,11 +316,11 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   -slider-background-color: rgba(0, 0, 0, 0.45);
   -slider-border-color: transparent;
   /* Background part */
-  -slider-active-background-color: #999;
+  -slider-active-background-color: #3466a8;
   -slider-active-border-color: transparent;
   /* Handle */
   -slider-handle-radius: 6px;
-  color: #999;
+  color: #3466a8;
 }
 
 /* ======================================
@@ -330,7 +330,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   border-radius: 3px;
   color: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(0, 0, 0, 0.45);
-  background-color: #111111;
+  background-color: #1A1A1A;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
   margin: 6px;
 }
@@ -373,14 +373,14 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
 }
 
 .popup-menu-item-dot {
-  color: #999;
+  color: #3466a8;
 }
 
 .popup-sub-menu {
   border-radius: 3px;
   color: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(0, 0, 0, 0.35);
-  background-color: #090909;
+  background-color: #151515;
   border-right-width: 0;
   border-left-width: 0;
   border-radius: 0;
@@ -408,7 +408,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   border-radius: 3px;
   color: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(0, 0, 0, 0.45);
-  background-color: #111111;
+  background-color: #1A1A1A;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
 }
 
@@ -440,7 +440,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   font-size: 100%;
   width: 43px;
   height: 33px;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.7);
   border-bottom-width: 1px;
   border-color: rgba(0, 0, 0, 0.25);
   /* When panel settings is open */
@@ -470,7 +470,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   font-size: 100%;
   width: 43px;
   height: 33px;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.7);
   border-top-width: 1px;
   border-color: rgba(0, 0, 0, 0.25);
   /* When panel settings is open */
@@ -500,7 +500,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   font-size: 100%;
   width: 43px;
   height: 33px;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.7);
   border-right-width: 1px;
   border-color: rgba(0, 0, 0, 0.25);
   /* When panel settings is open */
@@ -530,7 +530,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   font-size: 100%;
   width: 43px;
   height: 33px;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.7);
   border-left-width: 1px;
   border-color: rgba(0, 0, 0, 0.25);
   /* When panel settings is open */
@@ -666,7 +666,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   border-radius: 3px;
   color: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(0, 0, 0, 0.45);
-  background-color: #111111;
+  background-color: #1A1A1A;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
 }
 
@@ -810,7 +810,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   border-radius: 3px;
   color: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(0, 0, 0, 0.35);
-  background-color: #090909;
+  background-color: #151515;
 }
 
 .calendar-change-month-back,
@@ -861,7 +861,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
 
 .calendar-today {
   background-color: rgba(51, 153, 204, 0.25);
-  border-color: #090909;
+  border-color: #0e0e0e;
   font-weight: bold;
 }
 
@@ -893,7 +893,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
 
 .calendar-not-today:selected {
   font-weight: bold;
-  background-color: #090909;
+  background-color: #151515;
   color: rgba(255, 255, 255, 0.95);
 }
 
@@ -910,7 +910,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   padding: .5em;
   min-width: 350px;
   border: 1px solid rgba(0, 0, 0, 0.45);
-  background-color: #090909;
+  background-color: #151515;
 }
 
 .calendar-events-no-events-button {
@@ -924,13 +924,13 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
 
 .calendar-events-no-events-button:hover .calendar-events-no-events-icon,
 .calendar-events-no-events-button:hover .calendar-events-no-events-label {
-  color: #999;
+  color: #3466a8;
 }
 
 .calendar-events-no-events-icon,
 .calendar-events-no-events-label {
   font-weight: bold;
-  color: #999;
+  color: #3466a8;
   text-align: center;
 }
 
@@ -1106,7 +1106,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   border-radius: 3px;
   color: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(0, 0, 0, 0.45);
-  background-color: #111111;
+  background-color: #1A1A1A;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
   padding: 8px;
   spacing: 8px;
@@ -1310,13 +1310,13 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
 }
 
 .sound-player-generic-coverart {
-  background-color: #090909;
+  background-color: #151515;
   border-top: 1px rgba(0, 0, 0, 0.35);
 }
 
 .sound-player-overlay {
   border-top: 1px rgba(0, 0, 0, 0.45);
-  background-color: #111111;
+  background-color: #1A1A1A;
   padding: 16px;
   spacing: 8px;
   color: rgba(255, 255, 255, 0.95);
@@ -1408,8 +1408,8 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
 
 .sound-player .slider, .sound-player .popup-slider-menu-item {
   height: .45em;
-  -slider-background-color: #090909;
-  -slider-active-background-color: #999;
+  -slider-background-color: #0e0e0e;
+  -slider-active-background-color: #3466a8;
   -slider-handle-radius: 0;
   border-image: none;
   border: 0 transparent;
@@ -1576,7 +1576,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   border-radius: 3px;
   color: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(0, 0, 0, 0.35);
-  background-color: #090909;
+  background-color: #151515;
   padding: 3px;
 }
 
@@ -1658,7 +1658,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
 .menu-application-button-label:first-child:last-child,
 .menu-category-button-label:first-child:last-child {
   /* "All applications" button */
-  border: 0px rgba(153, 153, 153, 0.5);
+  border: 0px rgba(52, 102, 168, 0.5);
   border-left-width: 2px;
   padding: 2px 6px;
 }
@@ -1692,7 +1692,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   border-radius: 3px;
   color: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(0, 0, 0, 0.35);
-  background-color: #090909;
+  background-color: #151515;
   padding: 3px 0;
 }
 
@@ -1707,7 +1707,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   border-radius: 3px;
   color: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(0, 0, 0, 0.45);
-  background-color: #111111;
+  background-color: #1A1A1A;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
   text-shadow: none;
 }
@@ -1746,7 +1746,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   border-radius: 3px;
   color: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(0, 0, 0, 0.45);
-  background-color: #111111;
+  background-color: #1A1A1A;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
   padding: 0;
 }
@@ -1771,7 +1771,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   border-radius: 3px;
   color: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(0, 0, 0, 0.45);
-  background-color: #111111;
+  background-color: #1A1A1A;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
   font-size: 100%;
 }
@@ -1781,7 +1781,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
 }
 
 .modal-dialog-button-box {
-  background-color: #090909;
+  background-color: #151515;
   border-top: 1px rgba(0, 0, 0, 0.35);
   spacing: 0;
   padding: 8px;
@@ -1915,7 +1915,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   border-radius: 3px;
   color: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(0, 0, 0, 0.35);
-  background-color: #090909;
+  background-color: #151515;
   padding: 8px;
 }
 
@@ -1938,7 +1938,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   border-radius: 3px;
   color: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(0, 0, 0, 0.35);
-  background-color: #090909;
+  background-color: #151515;
   padding: 10px;
 }
 
@@ -1961,7 +1961,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   border-radius: 3px;
   color: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(0, 0, 0, 0.45);
-  background-color: #111111;
+  background-color: #1A1A1A;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
   padding: 10px;
   spacing-rows: 6px;
@@ -2172,7 +2172,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
 
 #traycontainer #notification {
   box-shadow: 0 0 transparent;
-  background-color: #090909;
+  background-color: #151515;
   font-size: 100%;
 }
 
@@ -2193,7 +2193,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   border-radius: 3px;
   color: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(0, 0, 0, 0.45);
-  background-color: #111111;
+  background-color: #1A1A1A;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
   color: rgba(255, 255, 255, 0.75);
   font-size: 100%;
@@ -2233,7 +2233,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   border-radius: 3px;
   color: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(0, 0, 0, 0.45);
-  background-color: #111111;
+  background-color: #1A1A1A;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
   font-weight: normal;
 }
@@ -2245,7 +2245,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   border-radius: 3px;
   color: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(0, 0, 0, 0.35);
-  background-color: #090909;
+  background-color: #151515;
   border-radius: 0;
   spacing: 6px;
 }
@@ -2337,7 +2337,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   border-radius: 3px;
   color: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(0, 0, 0, 0.45);
-  background-color: #111111;
+  background-color: #1A1A1A;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
 }
 
@@ -2358,7 +2358,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   border-radius: 3px;
   color: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(0, 0, 0, 0.45);
-  background-color: #111111;
+  background-color: #1A1A1A;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
   spacing: 0;
   padding: 8px 10px;
@@ -2377,7 +2377,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   border-radius: 3px;
   color: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(0, 0, 0, 0.45);
-  background-color: #111111;
+  background-color: #1A1A1A;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
   padding: 8px 10px;
   spacing: 6px;
@@ -2391,23 +2391,23 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   border-radius: 3px;
   color: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(0, 0, 0, 0.45);
-  background-color: #111111;
+  background-color: #1A1A1A;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
-  padding: 8px;
-  spacing: 0;
+  padding: 10px;
+  spacing: 10px;
 }
 
 .osd-window .level {
   background-color: rgba(0, 0, 0, 0.45);
   border: 0;
   border-radius: 6px;
-  height: 6px;
+  height: 10px;
   color: rgba(255, 255, 255, 0.95);
 }
 
 .osd-window .level-bar {
-  border-radius: 6px;
-  background-color: #999;
+  border-radius: 20px;
+  background-color: #3466a8;
 }
 
 /* ======================================
@@ -2492,7 +2492,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
 
 .forecast {
   border-top: 1px rgba(0, 0, 0, 0.35);
-  background-color: #090909;
+  background-color: #151515;
   padding: 16px;
 }
 
@@ -2562,7 +2562,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   caret-color: rgba(255, 255, 255, 0.95);
   caret-size: 1px;
   selected-color: rgba(255, 255, 255, 0.85);
-  selection-background-color: #999;
+  selection-background-color: #3466a8;
 }
 
 .menu .slingshot .entry StIcon {
@@ -3010,7 +3010,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   border-radius: 3px;
   color: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(0, 0, 0, 0.45);
-  background-color: #111111;
+  background-color: #1A1A1A;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
   font-weight: normal;
   text-align: center;
@@ -3115,7 +3115,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   border-radius: 3px;
   color: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(0, 0, 0, 0.35);
-  background-color: #090909;
+  background-color: #151515;
 }
 
 .starkmenu-background .hover-box .starkmenu-user-label {
@@ -3140,7 +3140,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   border-radius: 3px;
   color: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(0, 0, 0, 0.35);
-  background-color: #090909;
+  background-color: #151515;
 }
 
 .starkmenu-background .right-buttons-box {
@@ -3326,7 +3326,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   border-radius: 3px;
   color: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(0, 0, 0, 0.45);
-  background-color: #111111;
+  background-color: #1A1A1A;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
   padding: 0;
 }
@@ -3337,7 +3337,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
 
 /* Title */
 .reddit-title-bar {
-  background-color: #090909;
+  background-color: #151515;
   border-color: rgba(0, 0, 0, 0.35);
   border-bottom-width: 1px;
   padding: 8px;
@@ -3369,7 +3369,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
 
 .reddit-post {
   border: 1px rgba(0, 0, 0, 0.35);
-  background-color: #090909;
+  background-color: #151515;
   padding: 8px;
   color: rgba(255, 255, 255, 0.95);
   font-size: 100%;
@@ -3407,7 +3407,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   border-radius: 3px;
   color: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(0, 0, 0, 0.45);
-  background-color: #111111;
+  background-color: #1A1A1A;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
   width: 220px;
   spacing: 0;
@@ -3437,7 +3437,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   border-radius: 3px;
   color: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(0, 0, 0, 0.35);
-  background-color: #090909;
+  background-color: #151515;
 }
 
 .top-box {
@@ -3450,7 +3450,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
 
 .bottom-box:last-child {
   border-top: 1px rgba(0, 0, 0, 0.35);
-  background-color: #090909;
+  background-color: #151515;
 }
 
 .grid-preview:activate {

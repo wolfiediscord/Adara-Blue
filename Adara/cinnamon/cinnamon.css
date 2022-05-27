@@ -138,7 +138,7 @@ StEntry:focus, StEntry:active, StEntry:pressed,
   caret-color: rgba(0, 0, 0, 0.7);
   caret-size: 1px;
   selected-color: rgba(255, 255, 255, 0.85);
-  selection-background-color: #444;
+  selection-background-color: #458ce8;
 }
 
 StEntry StIcon,
@@ -170,12 +170,12 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   height: 16px;
   background-image: url("img/controls/switch.svg");
   background-position: 0px 0px;
-  background-color: rgba(68, 68, 68, 0.35);
+  background-color: rgba(106, 145, 195, 0.35);
   border-radius: 8px;
 }
 
 .toggle-switch:checked, .toggle-switch-us:checked, .toggle-switch-intl:checked {
-  background-color: #444;
+  background-color: #458ce8;
   background-position: 14px 0px;
 }
 
@@ -316,11 +316,11 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   -slider-background-color: rgba(0, 0, 0, 0.2);
   -slider-border-color: transparent;
   /* Background part */
-  -slider-active-background-color: #444;
+  -slider-active-background-color: #458ce8;
   -slider-active-border-color: transparent;
   /* Handle */
   -slider-handle-radius: 6px;
-  color: #444;
+  color: #458ce8;
 }
 
 /* ======================================
@@ -373,7 +373,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
 }
 
 .popup-menu-item-dot {
-  color: #444;
+  color: #458ce8;
 }
 
 .popup-sub-menu {
@@ -440,7 +440,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   font-size: 100%;
   width: 43px;
   height: 33px;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.7);
   border-bottom-width: 1px;
   border-color: rgba(0, 0, 0, 0.25);
   /* When panel settings is open */
@@ -470,7 +470,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   font-size: 100%;
   width: 43px;
   height: 33px;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.7);
   border-top-width: 1px;
   border-color: rgba(0, 0, 0, 0.25);
   /* When panel settings is open */
@@ -500,7 +500,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   font-size: 100%;
   width: 43px;
   height: 33px;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.7);
   border-right-width: 1px;
   border-color: rgba(0, 0, 0, 0.25);
   /* When panel settings is open */
@@ -530,7 +530,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   font-size: 100%;
   width: 43px;
   height: 33px;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.7);
   border-left-width: 1px;
   border-color: rgba(0, 0, 0, 0.25);
   /* When panel settings is open */
@@ -924,13 +924,13 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
 
 .calendar-events-no-events-button:hover .calendar-events-no-events-icon,
 .calendar-events-no-events-button:hover .calendar-events-no-events-label {
-  color: #444;
+  color: #458ce8;
 }
 
 .calendar-events-no-events-icon,
 .calendar-events-no-events-label {
   font-weight: bold;
-  color: #444;
+  color: #458ce8;
   text-align: center;
 }
 
@@ -1409,7 +1409,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
 .sound-player .slider, .sound-player .popup-slider-menu-item {
   height: .45em;
   -slider-background-color: #c8c8c8;
-  -slider-active-background-color: #444;
+  -slider-active-background-color: #458ce8;
   -slider-handle-radius: 0;
   border-image: none;
   border: 0 transparent;
@@ -1658,7 +1658,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
 .menu-application-button-label:first-child:last-child,
 .menu-category-button-label:first-child:last-child {
   /* "All applications" button */
-  border: 0px rgba(68, 68, 68, 0.5);
+  border: 0px rgba(69, 140, 232, 0.5);
   border-left-width: 2px;
   padding: 2px 6px;
 }
@@ -2393,21 +2393,21 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   border: 1px solid rgba(0, 0, 0, 0.2);
   background-color: #fafafa;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
-  padding: 8px;
-  spacing: 0;
+  padding: 10px;
+  spacing: 10px;
 }
 
 .osd-window .level {
   background-color: rgba(0, 0, 0, 0.2);
   border: 0;
   border-radius: 6px;
-  height: 6px;
+  height: 10px;
   color: rgba(0, 0, 0, 0.7);
 }
 
 .osd-window .level-bar {
-  border-radius: 6px;
-  background-color: #444;
+  border-radius: 20px;
+  background-color: #458ce8;
 }
 
 /* ======================================
@@ -2562,7 +2562,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   caret-color: rgba(0, 0, 0, 0.7);
   caret-size: 1px;
   selected-color: rgba(255, 255, 255, 0.85);
-  selection-background-color: #444;
+  selection-background-color: #458ce8;
 }
 
 .menu .slingshot .entry StIcon {
