@@ -50,7 +50,18 @@
 	font-weight: bold;
 }
 
-.calendar-day-base {/*!*/}
+.calendar-day-base {
+    font-size: 0.9em;
+    text-align: center;
+    width: 2.4em;
+    height: 2.4em;
+}
+
+.calendar-day-base:hover {
+    color: $text-primary;
+    background: $background-hover;
+    font-weight: bold;
+}
 
 .calendar-day {
 	border: 1px $border-primary;

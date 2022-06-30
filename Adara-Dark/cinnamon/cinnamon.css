@@ -831,7 +831,16 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
 }
 
 .calendar-day-base {
-  /*!*/
+  font-size: 0.9em;
+  text-align: center;
+  width: 2.4em;
+  height: 2.4em;
+}
+
+.calendar-day-base:hover {
+  color: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 0.1);
+  font-weight: bold;
 }
 
 .calendar-day {
