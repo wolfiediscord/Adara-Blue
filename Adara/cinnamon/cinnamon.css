@@ -831,7 +831,16 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
 }
 
 .calendar-day-base {
-  /*!*/
+  font-size: 0.9em;
+  text-align: center;
+  width: 2.4em;
+  height: 2.4em;
+}
+
+.calendar-day-base:hover {
+  color: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.15);
+  font-weight: bold;
 }
 
 .calendar-day {
@@ -1046,7 +1055,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   color: rgba(255, 255, 255, 0.85);
   spacing: 4px;
   border-color: transparent;
-  padding: 1px 6px;
+  padding: 5px 6px;
 }
 
 .vertical .window-list-item-box {
@@ -1054,22 +1063,22 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
 }
 
 .window-list-item-box.top {
-  border-top-width: 1px;
+  border-top-width: 10px;
   padding-top: 0px;
 }
 
 .window-list-item-box.bottom {
-  border-bottom-width: 1px;
+  border-bottom-width: 10px;
   padding-bottom: 0px;
 }
 
 .window-list-item-box.left {
-  border-left-width: 1px;
+  border-left-width: 10px;
   padding-left: 0px;
 }
 
 .window-list-item-box.right {
-  border-right-width: 1px;
+  border-right-width: 10px;
   padding-right: 0px;
 }
 
@@ -1117,6 +1126,8 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
  * ====================================== */
 .grouped-window-list-thumbnail-menu {
   spacing: 3px;
+  color: rgba(0, 0, 0, 0.7);
+  background-color: #fafafa;
 }
 
 .grouped-window-list-thumbnail-menu .item-box {
@@ -1156,7 +1167,7 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
 .grouped-window-list-item-box {
   color: rgba(255, 255, 255, 0.85);
   spacing: 4px;
-  border-color: transparent;
+  border-color: #000;
   padding: 1px 6px;
   /*
 		 * :hover - mouse is over
@@ -1194,6 +1205,10 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
 .grouped-window-list-item-box:hover, .grouped-window-list-item-box:active, .grouped-window-list-item-box:checked, .grouped-window-list-item-box:focus {
   border-color: rgba(255, 255, 255, 0.85);
   color: rgba(255, 255, 255, 0.85);
+}
+
+.grouped-window-list-item-box:active {
+  border-bottom-width: 2px;
 }
 
 .grouped-window-list-item-box:focus, .grouped-window-list-item-box:active:hover, .grouped-window-list-item-box:checked {
