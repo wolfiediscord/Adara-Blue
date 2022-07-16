@@ -912,6 +912,25 @@ StEntry:focus > StIcon, StEntry:active > StIcon, StEntry:pressed > StIcon,
   background-color: rgba(0, 0, 0, 0.15);
 }
 
+.calendar-today-home-button-enabled:hover {
+  background-color: rgba(0, 0, 0, 0.15);
+  padding: 12px;
+}
+
+.calendar-today-home-button-enabled:hover .calendar-today-day-label {
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+  font-size: 150%;
+  text-align: center;
+}
+
+.calendar-today-home-button-enabled:hover .calendar-today-date-label {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: bold;
+  font-size: 120%;
+  text-align: center;
+}
+
 /* Event Box */
 .calendar-events-main-box {
   height: 300px;

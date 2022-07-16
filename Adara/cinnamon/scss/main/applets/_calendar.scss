@@ -128,6 +128,26 @@
       background-color: $background-hover; 
 }
 
+.calendar-today-home-button-enabled:hover {
+    background-color: $background-hover; 
+    padding: 12px;
+}
+
+.calendar-today-home-button-enabled:hover .calendar-today-day-label {
+    color: $text-primary;
+    font-weight: bold;
+    font-size: 150%;
+    text-align: center;
+}
+
+.calendar-today-home-button-enabled:hover .calendar-today-date-label {
+    color: $text-secondary;
+    font-weight: bold;
+    font-size: 120%;
+    text-align: center;
+}
+
+
 /* Event Box */
 .calendar-events-main-box {
   height: 300px;
