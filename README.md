@@ -1,7 +1,7 @@
 # [Brunnera Cinnamon theme][repo]
 > 
 
-[![](Brunnera/screenshot.png)![](Brunnera/screenshot.png)][repo]
+[![](Brunnera/screenshot.png)![](Brunnera-Dark/screenshot.png)][repo]
 
 ## Installation
 ### Cinnamon Settings (recommended)
