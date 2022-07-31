@@ -1,5 +1,5 @@
 # [Brunnera Cinnamon theme][repo]
-> 
+> A simple, blue theme for everyone. 
 
 [![](Brunnera/screenshot.png)![](Brunnera-Dark/screenshot.png)][repo]
 
