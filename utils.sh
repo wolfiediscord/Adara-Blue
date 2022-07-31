@@ -11,7 +11,7 @@ shift $(($OPTIND-1))
 # ======================================
 #  Constants
 # ======================================
-theme='Adara'
+theme='Brunnera'
 if $dark; then theme+='-Dark'; fi
 
 theme_dir="$HOME/.themes"

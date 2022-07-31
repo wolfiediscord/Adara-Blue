@@ -1,11 +1,11 @@
-# [Adara Blue Cinnamon theme][repo]
-> Just a neutral theme
+# [Brunnera Cinnamon theme][repo]
+> 
 
-[![](Adara/screenshot.png)![](Adara-Dark/screenshot.png)][repo]
+[![](Brunnera/screenshot.png)![](Brunnera/screenshot.png)][repo]
 
 ## Installation
 ### Cinnamon Settings (recommended)
-Go to `Settings > Themes` and search for "Adara Blue".
+Go to `Settings > Themes` and search for "Brunnera".
 
 #### From source
 Clone [this repository][repo] and run `make install` or `make install-dark`.
@@ -59,6 +59,6 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ```
 
-[repo]: https://github.com/wolfiediscord/Adara-Blue
-[spices]: https://cinnamon-spices.linuxmint.com/themes/view/Adara
-[archive]: https://github.com/wolfiediscord/Adara-Blue/releases
+[repo]: https://github.com/wolfiediscord/Brunnera
+[spices]: https://cinnamon-spices.linuxmint.com/themes/view/Brunnera
+[archive]: https://github.com/wolfiediscord/Brunnera/releases
